@@ -1,8 +1,6 @@
 package scaling_worker_pool
 
-import (
-	"sync"
-)
+import "sync"
 
 type WorkerPool[T any] struct {
 	sync.Mutex

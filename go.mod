@@ -1,3 +1,3 @@
-module scaling-worker-pool
+module go-tools
 
 go 1.24
